@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@orbs-network/ton-access": "^2.3.3",
+    "@rollup/plugin-inject": "^5.0.5",
     "@tailwindcss/postcss": "^4.1.7",
     "axios": "^1.9.0",
     "buffer": "^6.0.3",
@@ -19,6 +20,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0",
+    "rollup-plugin-inject": "^3.0.2",
     "tailwindcss": "^4.1.7",
     "tonweb": "^0.0.66",
     "tonweb-mnemonic": "^1.0.1"
