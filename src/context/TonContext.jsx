@@ -43,7 +43,7 @@ export default function TonProvider({ children }) {
 
     const waitForSeqnoChange = async (oldSeqno) => {
         for (let i = 0; i < 20; i++) {
-            await new Promise(r => setTimeout(r, 100));
+            await new Promise(r => setTimeout(r, 1500));
             const newSeqnoRaw = await wallet.methods.seqno().call();
             const newSeqno = Number(newSeqnoRaw);
             if (newSeqno > oldSeqno) {
